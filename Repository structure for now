@@ -1,0 +1,50 @@
+samvedana/
+├── .env.example
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── .gitignore
+├── Dockerfile
+├── Procfile
+├── README.md
+├── app.py
+├── config.py
+├── forms.py
+├── models.py
+├── schemas.py
+├── jobs.py
+├── requirements.txt
+├── docs/
+│   ├── ops.md
+│   └── privacy.md
+├── scripts/
+│   ├── cleanup_uploads.py
+│   ├── init_db.py
+│   ├── load_sample_data.py
+│   └── sample_data.csv
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── map.js
+├── templates/
+│   ├── base.html
+│   ├── home.html
+│   ├── offer.html
+│   ├── request.html
+│   ├── matches.html
+│   └── admin.html
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_matching.py
+│   ├── test_rate_limits.py
+│   └── test_image_hash.py
+└── utils/
+    ├── __init__.py
+    ├── audit.py
+    ├── geocode.py
+    ├── gforms_sync.py
+    ├── image_hash.py
+    ├── matching.py
+    └── sms_bot.py
